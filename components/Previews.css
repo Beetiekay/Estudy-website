@@ -1,0 +1,70 @@
+.Previews{
+    justify-content: center;
+    background: #f5fffa;
+    width: 100%;
+    height: 80vh;
+}
+.Previews h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+.Previews h2 span{
+    color: #006400;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+.Previews-container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.reviews-box{
+    width: 20%;
+    height: 40%;
+    background: #fffafa;
+    border: 1px solid #708090;
+    padding: 25px 40px
+}
+.reviews-box:hover{
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 80%);
+}
+.reviews-box p{
+     text-align: center;
+     margin-bottom: 2rem;
+     color: #708090;
+}
+.reviews-box img{
+    width: 25%;
+    background: #f5fffa;
+    border-radius: 3rem;
+    margin-left: 5rem;
+}
+.reviews-box .im img{
+    width: 25%;
+    height: 56px;
+    /* background: #f5fffa; */
+    border-radius: 3rem;
+    margin-left: 5rem;
+}
+.reviews-box img:hover{
+    transform: scale(1.2);
+    border: 1px solid #000;
+}
+@media(max-width: 610px){
+    .Previews{
+        width: 170%;
+        height: 100vh;
+    }
+    .Previews h2{
+        font-size: 3rem;
+    }
+    .reviews-box{
+        width: 100%;
+        margin-left: 2rem;
+    }
+}

@@ -1,0 +1,79 @@
+.courses{
+    /* display: flex; */
+    justify-content: center;
+    background: #f5fffa;
+}
+.courses h3{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+.courses h3 span{
+    color: #006400;
+    font-weight: 600;
+}
+.courses-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-flow: nowrap;
+    gap: 1.5rem;
+}
+.courses-box{
+    width: 15%;
+    height: 40vh;
+    color: #299129;
+    background: #f5fffa;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+.courses-box .bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+.courses-box .bt:hover{
+    transform: scale(1.1);
+}
+.courses-box h2{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    margin-top: 1.5rem;
+}
+.courses-box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    text-align: center;
+    color: #708090;
+}
+@media(max-width: 610px){
+    .courses{
+        width: 186%;
+        height: 100vh;
+    }
+    .courses h3{
+        font-size: 3rem;
+        margin-top: 2rem;
+        /* margin-left: 15rem; */
+    }
+    .courses-box{
+        width: 20%;
+        height: 40vh;
+        margin-left: 2rem;
+    }
+    .courses-box h2{
+       font-size: 15px;
+    }
+    .courses-box p{
+        font-size: 15px;
+    }
+}
